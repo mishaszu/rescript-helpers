@@ -1,0 +1,22 @@
+{
+  "name": "rescript-helpers",
+  "version": "0.1.0",
+  "description": "Set of Rescript helpers",
+  "main": "./src/Helpers.res",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rescript",
+    "helpers"
+  ],
+  "scripts": {
+    "dev": "rescript build -w",
+    "build": "rescript build"
+  },
+  "author": "mishaszu",
+  "license": "ISC",
+  "peerDependencies": {
+    "rescript": "^10.1.4"
+  }
+}
