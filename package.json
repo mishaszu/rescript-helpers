@@ -4,19 +4,17 @@
   "description": "Set of Rescript helpers",
   "main": "./src/Helpers.res",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "rescript build -w",
+    "build": "rescript build",
+    "clean": "rescript clean"
   },
   "keywords": [
     "rescript",
     "helpers"
   ],
-  "scripts": {
-    "dev": "rescript build -w",
-    "build": "rescript build"
-  },
   "author": "mishaszu",
   "license": "ISC",
   "peerDependencies": {
-    "rescript": "^10.1.4"
+    "rescript": "^11.0.0-rc.8"
   }
 }
